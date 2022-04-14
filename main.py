@@ -3,7 +3,7 @@ import webserver
 import random
 from webserver import keep_alive
 
-TOKEN = "OTYzNzA2ODMwMDQxNzg0MzYx.YlZ_7Q.6e5M4LHTYYN5A8bWB_so00pHWQw"
+TOKEN = "Token"
 
 client = discord.Client()
 
