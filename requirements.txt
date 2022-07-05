@@ -1,0 +1,6 @@
+discord
+dismusic
+ffmpeg
+humanfriendly
+datetime
+asyncio
