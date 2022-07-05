@@ -4,7 +4,6 @@ astroid==2.8.2
 async-timeout==4.0.2
 asyncio==3.4.3
 attrs==21.4.0
-audiostream==0.2
 chardet==4.0.0
 charset-normalizer==2.1.0
 DateTime==4.5
