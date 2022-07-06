@@ -7,21 +7,10 @@ import datetime
 import humanfriendly
 import asyncio
 import ffmpeg as ffmpeg
-import json
-import os
 
-if os.path.exists(os.getcwd() + "/config.json"):
-    
-    with open("./config.json") as f:
-        configData = json.load(f)
 
-else:
-    configTemplate = {"token": ""}
 
-    with open(os.getcwd() + "/config.json", "w+") as f:
-        json.dump(configTemplate, f) 
-
-Token = configData["token"]
+Token="OTgzMzM3NjkyNTM0Mjk2Njc2.Gcf7m6.9RU6vGpRy3aV12pqhdYHkUPA6huuXSro_5Dqu4"
 intents= discord.Intents.all()
 Bot = commands.Bot(command_prefix="", intents=intents)
 bot = Bot
