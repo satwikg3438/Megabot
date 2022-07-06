@@ -8,7 +8,7 @@ import humanfriendly
 import asyncio
 import ffmpeg as ffmpeg
 
-Token= 'OTgzMzM3NjkyNTM0Mjk2Njc2.GFl1Me.nesgoF3TCJXbRzbL7FXLXk8NoRuwr2yFeGDucE'
+Token= 'OTgzMzM3NjkyNTM0Mjk2Njc2.GpvTXy.OeQY_n8PjXb9qnZoM2hidKmuYtie2_xTQib4Bk'
 
 intents= discord.Intents.all()
 Bot = commands.Bot(command_prefix="", intents=intents)
